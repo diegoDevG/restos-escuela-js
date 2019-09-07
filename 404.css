@@ -1,0 +1,39 @@
+header{
+    background: green;
+    padding: 30px;    
+}
+
+header img{
+    width: 200px;
+}
+
+body{
+    background: linear-gradient(green, #8f57fd);
+    height: 100vh;
+    position: relative;    
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+}
+
+footer{
+    background: #8f57fd;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+    padding: 30px;  
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5rem;
+}
